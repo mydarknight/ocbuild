@@ -327,7 +327,7 @@ if [ ! -f UDK/UDK.ready ]; then
   fi
 fi
 
-updaterepo "https://github.com/tianocore/edk2" UDK UDK2018 || exit 1
+updaterepo "https://github.com/mydarknight/audk" UDK master || exit 1
 cd UDK || exit 1
 HASH=$(git rev-parse origin/master)
 
